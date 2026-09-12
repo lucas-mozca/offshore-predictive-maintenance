@@ -1,5 +1,13 @@
 # ⚙️ Offshore Predictive Maintenance System
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.14-blue?logo=python">
+  <img src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi">
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql">
+  <img src="https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikitlearn">
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit">
+</p>
+
 Sistema educacional de manutenção preditiva para bombas centrífugas, desenvolvido para simular um pipeline de monitoramento industrial utilizando **Python, PostgreSQL, Machine Learning, FastAPI e Streamlit**.
 
 O projeto simula dados de sensores de uma bomba centrífuga, armazena as leituras em banco de dados, identifica condições anormais por regras, utiliza Machine Learning para classificar o estado operacional do equipamento e disponibiliza os resultados através de uma API e de um dashboard.
