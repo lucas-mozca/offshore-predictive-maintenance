@@ -209,6 +209,69 @@ Ele apresenta:
 
 O dashboard permite comparar a abordagem tradicional baseada em regras com a classificação realizada pelo modelo de Machine Learning.
 
+## 📸 Demonstração do Dashboard
+
+### Monitoramento em tempo real
+
+Visão geral dos sensores monitorados, comparação entre a detecção baseada em regras e a classificação realizada pelo modelo de Machine Learning.
+
+<p align="center">
+  <img src="assets/1.png" width="100%" alt="Visão geral do dashboard">
+</p>
+
+### Probabilidades do modelo
+
+Distribuição da confiança do Random Forest entre os estados NORMAL, DEGRADAÇÃO e FALHA.
+
+<p align="center">
+  <img src="assets/2.png" width="100%" alt="Probabilidades do modelo">
+</p>
+
+### Histórico dos sensores
+
+Monitoramento da evolução das três variáveis utilizadas pelo sistema.
+
+#### Temperatura
+
+<p align="center">
+  <img src="assets/3.png" width="100%" alt="Histórico de temperatura">
+</p>
+
+#### Vibração
+
+<p align="center">
+  <img src="assets/4.png" width="100%" alt="Histórico de vibração">
+</p>
+
+#### Pressão
+
+<p align="center">
+  <img src="assets/5.png" width="100%" alt="Histórico de pressão">
+</p>
+
+### Telemetria
+
+As leituras mais recentes armazenadas no PostgreSQL podem ser acompanhadas diretamente pelo dashboard.
+
+<p align="center">
+  <img src="assets/6.png" width="100%" alt="Últimas leituras dos sensores">
+</p>
+
+### Alertas
+
+Anomalias identificadas pelas regras do sistema são registradas e disponibilizadas para acompanhamento.
+
+<p align="center">
+  <img src="assets/7.png" width="100%" alt="Alertas recentes">
+</p>
+
+### Desempenho do modelo
+
+O modelo utilizado é um Random Forest treinado com 600 leituras sintéticas. A validação cruzada por ciclos apresentou acurácia média de 93,50%.
+
+<p align="center">
+  <img src="assets/8.png" width="100%" alt="Informações do modelo de Machine Learning">
+</p>
 ---
 
 ## 🏗️ Estrutura do projeto
