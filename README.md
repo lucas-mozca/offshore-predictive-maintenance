@@ -391,6 +391,6 @@ Portanto, o sistema não deve ser utilizado para decisões de manutenção em eq
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Lucas Scalioni
 
 Desenvolvido como projeto de portfólio e estudo de desenvolvimento de software, análise de dados e Machine Learning.
